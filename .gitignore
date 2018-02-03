@@ -1,0 +1,22 @@
+# Add any directories, files, or patterns you don’t want to be tracked by version control
+## Build generated
+build/
+DerivedData
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+
+*.xcworkspace
+xcuserdata
+docs
+
+## Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+##Pods
+Pods/
+Podfile.lock
